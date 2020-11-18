@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace QuanLyQuan
 {
-    public partial class Form1 : Form
+    public partial class frmProfile : Form
     {
-        public Form1()
+        public frmProfile()
         {
             InitializeComponent();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
